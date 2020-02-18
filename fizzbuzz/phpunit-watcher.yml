@@ -8,5 +8,5 @@ notifications:
   failingTests: false
 phpunit:
   binaryPath: vendor/bin/phpunit
-  arguments: '--stop-on-failure tests/StringCalculatorTest.php'
+  arguments: '--stop-on-failure tests/FizzBuzzTest.php'
   timeout: 180
