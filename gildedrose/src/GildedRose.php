@@ -27,6 +27,8 @@ abstract class GildedRose
             return new AgedBrie($name, $quality, $sellIn);
         } else if ($name === 'Backstage passes to a TAFKAL80ETC concert') {
             return new BackstagePass($name, $quality, $sellIn);
+        } else if ($name === 'Conjured Mana Cake') {
+            return new ConjuredItem($name, $quality, $sellIn);
         }
 
         throw new \RuntimeException("Unknown item {$name}");
