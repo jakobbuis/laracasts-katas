@@ -8,5 +8,5 @@ notifications:
   failingTests: false
 phpunit:
   binaryPath: vendor/bin/phpunit
-  arguments: '--stop-on-failure tests/TemplateTest.php'
+  arguments: 'tests'
   timeout: 180
